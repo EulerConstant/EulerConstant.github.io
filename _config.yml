@@ -5,13 +5,6 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 #
-# ,--------.      ,--.   ,--. ,--.
-# '--.  .--',---.  \  `.'  /,-'  '-.
-#    |  |  | .-. :  .'    \ '-.  .-'
-#    |  |  \   --. /  .'.  \  |  |
-#    `--'   `----''--'   '--' `--'
-
-
 
 
 ## => Site Settings
@@ -32,7 +25,7 @@ timezone: Asia/Shanghai
 ## => Author and Social
 ##############################
 author:
-  name: Lei
+  name: Lei`s blog
   email: lei.rong@outlook.com
 #  twitter: kitian616
   github:  EulerConstant
