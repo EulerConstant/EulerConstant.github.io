@@ -24,12 +24,11 @@ Believe in Science only. ~~The Broken World~~
 
 如果你有任何问题，请给我发送邮件：[我的邮箱](lei.rong@outlook.com)
 
-## Some Links | 相关链接
+## Some Links | Music
 
-- [About This Blog](/blog/2015/10/14/about-this-blog.html)
-- [Site Log](/blog/site-log.html)
-[comment]:<> ([TeXt Theme](https://github.com/kitian616/jekyll-TeXt-theme) [![GitHub stars](https://img.shields.io/github/stars/kitian616/jekyll-TeXt-theme.svg?style=social&label=Stars)])
+- [Tutorial to build this blog](/blog/2015/10/14/about-this-blog.html)
+- [log of this blog](/blog/site-log.html)
+[comment]:<>([TeXt Theme](https://github.com/kitian616/jekyll-TeXt-theme) [![GitHub stars](https://img.shields.io/github/stars/kitian616/jekyll-TeXt-theme.svg?style=social&label=Stars)])
 
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=35618537&auto=1&height=66"></iframe>
 
-[友情链接](https://baidu.com)
