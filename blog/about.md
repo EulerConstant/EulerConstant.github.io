@@ -31,5 +31,4 @@ Believe in Science only. ~~The Broken World~~  [Qunar.com](https://www.qunar.com
 - [Site Log](/blog/site-log.html)
 - [TeXt Theme](https://github.com/kitian616/jekyll-TeXt-theme) [![GitHub stars](https://img.shields.io/github/stars/kitian616/jekyll-TeXt-theme.svg?style=social&label=Stars)]()
 
----
-[友情链接](www.baidu.com)
+[友情链接](https://baidu.com)

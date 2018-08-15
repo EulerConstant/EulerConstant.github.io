@@ -1,7 +1,7 @@
-# tianqi.name
+# Welcome
 
 My Personal Website:
 
-Visit => [tianqi.name](https://tianqi.name).
+Visit => [My Blog](https://EulerConstant.github.io).
 
-Powered by [Jekyll](http://jekyllrb.com/) & [TeXt Theme](https://github.com/kitian616/jekyll-TeXt-theme).
+Powered by [Jekyll](http://jekyllrb.com/).

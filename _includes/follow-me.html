@@ -8,6 +8,7 @@
   <ul class="menu menu--nowrap menu--center">
 
 
+	<!--            添加社交媒体帐号链接         -->
     {%- if _author.url -%}
       <link itemprop="url" href="{{ _author.url }}">
     {%- endif -%}
@@ -24,38 +25,6 @@
     {%- assign __locale = site.data.locale.FOLLOW_ME -%}
     {%- include snippets/locale-to-string.html -%}
 
-    {%- if _author.weibo -%}
-      <li title="{{ __return | replace: '[NAME]', 'Weibo' }}">
-        <a class="button button--circle weibo-button" itemprop="sameAs" href="https://weibo.com/{{ _author.weibo }}" target="_blank">
-          <div class="icon">{%- include svg/icon/social/weibo.svg -%}</div>
-        </a>
-      </li>
-    {%- endif -%}
-
-    {%- if _author.facebook -%}
-      <li title="{{ __return | replace: '[NAME]', 'Facebook' }}">
-        <a class="button button--circle facebook-button" itemprop="sameAs" href="https://www.facebook.com/{{ _author.facebook }}" target="_blank">
-          <div class="icon">{%- include svg/icon/social/facebook.svg -%}</div>
-        </a>
-      </li>
-    {%- endif -%}
-
-    {%- if _author.twitter -%}
-      <li title="{{ __return | replace: '[NAME]', 'Twitter' }}">
-        <a class="button button--circle twitter-button" itemprop="sameAs" href="https://twitter.com/{{ _author.twitter }}" target="_blank">
-          <div class="icon">{%- include svg/icon/social/twitter.svg -%}</div>
-        </a>
-      </li>
-    {%- endif -%}
-
-    {%- if _author.googleplus -%}
-      <li title="{{ __return | replace: '[NAME]', 'Google+' }}">
-        <a class="button button--circle googlepluse-button" itemprop="sameAs" href="https://plus.google.com/u/0/{{ _author.googleplus }}" target="_blank">
-          <div class="icon">{%- include svg/icon/social/googleplus.svg -%}</div>
-        </a>
-      </li>
-    {%- endif -%}
-
     {%- if _author.github -%}
       <li title="{{ __return | replace: '[NAME]', 'Github' }}">
         <a class="button button--circle github-button" itemprop="sameAs" href="https://github.com/{{ _author.github }}" target="_blank">
@@ -64,21 +33,36 @@
       </li>
     {%- endif -%}
 
-    {%- if _author.linkedin -%}
-      <li title="{{ __return | replace: '[NAME]', 'Linkedin' }}">
-        <a class="button button--circle linkedin-button" itemprop="sameAs" href="https://www.linkedin.com/in/{{ _author.linkedin }}" target="_blank">
-          <div class="icon">{%- include svg/icon/social/linkedin.svg -%}</div>
+    {%- if _author.biwen -%}
+      <li title="{{ __return | replace: '[NAME]', 'biwen' }}">
+        <a class="button button--circle biwen-button" itemprop="sameAs" href="https://www.biask.com/people/{{ _author.biwen }}" target="_blank">
+          <div class="icon">{%- include svg/icon/social/biwen.svg -%}</div>
         </a>
       </li>
     {%- endif -%}
 
-    {%- if _author.douban -%}
-      <li title="{{ __return | replace: '[NAME]', 'Douban' }}">
-        <a class="button button--circle douban-button" itemprop="sameAs" href="https://www.douban.com/people/{{ _author.douban }}" target="_blank">
-          <div class="icon">{%- include svg/icon/social/douban.svg -%}</div>
+    {%- if _author.steemit -%}
+      <li title="{{ __return | replace: '[NAME]', 'steemit' }}">
+        <a class="button button--circle steemit-button" itemprop="sameAs" href="https://www.steemit.com/{{ _author.steemit }}" target="_blank">
+          <div class="icon">{%- include svg/icon/social/steemit.svg -%}</div>
         </a>
       </li>
     {%- endif -%}
 
+    {%- if _author.quora -%}
+      <li title="{{ __return | replace: '[NAME]', 'quora' }}">
+        <a class="button button--circle quora-button" itemprop="sameAs" href="https://www.quora.com/{{ _author.quora }}" target="_blank">
+          <div class="icon">{%- include svg/icon/social/quora.svg -%}</div>
+        </a>
+      </li>
+    {%- endif -%}
+
+    {%- if _author.stack -%}
+      <li title="{{ __return | replace: '[NAME]', 'stack' }}">
+        <a class="button button--circle stack-button" itemprop="sameAs" href="https://stackexchange.com/user/14100898/{{ _author.stack }}" target="_blank">
+          <div class="icon">{%- include svg/icon/social/stack.svg -%}</div>
+        </a>
+      </li>
+    {%- endif -%}
   </ul>
 </div>
