@@ -1,19 +1,18 @@
 ---
 layout: article
-title: 简介
+title: 个人简介
 key: page-about
 ---
 Welcome to the Decentralized World! :earth_asia: :earth_africa: :earth_americas:
 
-Believe in Science only. ~~The Broken World~~  [Qunar.com](https://www.qunar.com)
-
+Believe in Science only. ~~The Broken World~~
 ## Skills
 
 - Math
 
 <!--more-->
 
-## About Me | 关于我
+## About Me
 
 以后再写
 
@@ -29,8 +28,8 @@ Believe in Science only. ~~The Broken World~~  [Qunar.com](https://www.qunar.com
 
 - [About This Blog](/blog/2015/10/14/about-this-blog.html)
 - [Site Log](/blog/site-log.html)
-- [TeXt Theme](https://github.com/kitian616/jekyll-TeXt-theme) [![GitHub stars](https://img.shields.io/github/stars/kitian616/jekyll-TeXt-theme.svg?style=social&label=Stars)]()
+[comment]:<> ([TeXt Theme](https://github.com/kitian616/jekyll-TeXt-theme) [![GitHub stars](https://img.shields.io/github/stars/kitian616/jekyll-TeXt-theme.svg?style=social&label=Stars)])
 
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=35618537&auto=1&height=66"></iframe>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=35618537&auto=1&height=66"></iframe>
 
 [友情链接](https://baidu.com)
