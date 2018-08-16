@@ -27,8 +27,7 @@ Believe in Science only. ~~The Broken World~~
 ## Some Links | Music
 
 - [Tutorial to build this blog](/blog/2015/10/14/about-this-blog.html)
-- [log of this blog](/blog/site-log.html)
-[comment]:<>([TeXt Theme](https://github.com/kitian616/jekyll-TeXt-theme) [![GitHub stars](https://img.shields.io/github/stars/kitian616/jekyll-TeXt-theme.svg?style=social&label=Stars)])
+- [Log of this blog](/blog/site-log.html)
 
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=35618537&auto=1&height=66"></iframe>
 
