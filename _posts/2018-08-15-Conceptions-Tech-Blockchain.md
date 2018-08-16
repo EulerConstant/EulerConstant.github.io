@@ -3,7 +3,7 @@ layout: article
 title: Conceptions and Technologies used in Blockchain
 tags: blockchain
 date: 2018-08-15
-
+---
 ##BlockChain v1.0
 -Bitcoin
 -LiteCoin
