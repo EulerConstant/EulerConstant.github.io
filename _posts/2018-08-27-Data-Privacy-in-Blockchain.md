@@ -5,7 +5,8 @@ date: 2018-08-27
 ---
 
 用户数据的安全性和用户的个人隐私是区块链技术里必须考虑到的两个重点问题，用户数据的安全是指一旦发生数据泄漏，要确保用户的元数据不会被其他人掌握，我们主要用数据加密技术来实现这一点。用户的个人隐私是指每一笔交易都必须满足:  
-	1)不可链接性（Unlinkability）：无法证明两个交易是发送给同一个人的，也就是无法知道交易的接收者是谁。  
+
+1)不可链接性（Unlinkability）：无法证明两个交易是发送给同一个人的，也就是无法知道交易的接收者是谁。  
 	
 2)不可追踪性（Untraceability）：无法知道交易的发送者是谁。
 <!--more-->
@@ -22,7 +23,7 @@ date: 2018-08-27
 
 ### 5, Zero-knowledge proof（零知识证明）		
 
-### 6, Cash shuffle （coin shuffle混币）
+### 6, Cash shuffle （CoinJoin混币）
 
 ### 7, Homomorphic encryption + Multiparty calculation（同态加密+多方计算）
 
@@ -34,7 +35,8 @@ date: 2018-08-27
 - [门罗币](https://getmonero.org/)使用了one-time-use address来实现交易的不可链接性。
 
 ## 2 Encrypted metadata（元数据加密）
-### 2.1 
+
+- 利用数据加密算法对元数据(metadata)进行加密，即使发生系统性的数据泄漏，也能保护用户的原始数据不被泄漏。
 
 ## 3 [State channels（状态通道）](https://www.jeffcoleman.ca/state-channels/)
 
@@ -44,7 +46,7 @@ date: 2018-08-27
 
 ## 4 [Ring signature（环签名）](https://en.wikipedia.org/wiki/Ring_signature)
 
-### [Monero](https://getmonero.org/) 
+### [Monero](https://getmonero.org/)(门罗币) 
 	
 - 门罗币通过隐蔽地址来实现不可链接性，每次发起者发起一笔交易时，利用接收者的公钥计算出一个临时的一次性的中间地址，将金额发送到这个中间地址，接受者利用自己的公钥找到这笔交易。   
 
@@ -71,6 +73,7 @@ date: 2018-08-27
 - [Bulletproofs相关论文](https://eprint.iacr.org/2017/1066.pdf)
 
 - [Bulletproofs具体实现](https://github.com/apoelstra/secp256k1-mw/tree/bulletproofs)  
+
 -   Bulletproofs可以被用来在零知识中证明任意的陈述。它们与SNARKs或STARKs相当，不过它们原生支持椭圆曲线(EC)公钥和Pedersen commitments（因此通常不需要在程序中实现EC算法）。此外，与SNARK不同的是，Bulletproofs在无信任环境的标准猜想下拥有完整的128位安全性。与STARK不同，它们在典型的计算机硬件上足以快速证明和验证合理大小的问题。
 
 ## 6 Cash shuffle （[CoinJoin](https://en.wikipedia.org/wiki/CoinJoin)混币）
@@ -90,7 +93,9 @@ date: 2018-08-27
 ### 7.1 [CryptDB](http://css.csail.mit.edu/cryptdb/)
 
 - [CyrptDB相关论文](http://people.csail.mit.edu/nickolai/papers/raluca-cryptdb.pdf)
+
 - [CryptDB具体实现](https://github.com/CryptDB/cryptdb)
+
 - CryptDB是MIT利用同态加密实现的SQL数据库加密代理，其截获用户的SQL语句, 进行加密操作, 然后给数据库发送加密以后的SQL语句, 这样数据库服务器不能获得明文数据。其通过特殊的加密算法, 使得数据库服务器能够对加密数据进行处理, 返回加密的结果。
 
 ### 7.2 区块链+安全多方计算
@@ -100,3 +105,19 @@ date: 2018-08-27
 #### [CoinParty](https://www.martinhenze.de/wp-content/papercite-data/pdf/zgh+15.pdf)
 
 - CoinParty是一个区块链+安全多方计算的想法，暂时还未实现。
+
+## 总结  
+
+区块链中涉及到的安全问题主要包括：  
+
+- 数据安全  
+
+涉及到的技术有：链下计算（状态通道），同态加密，安全多方计算，元数据加密，零知识证明，盲签名([Wiki](https://en.wikipedia.org/wiki/Blind_signature)[百度百科](https://baike.baidu.com/item/盲签名/10323600?fr=aladdin))
+
+
+- 用户隐私  
+
+涉及到：环签名，one-time-use address,CoinJoin混币，群签名，([Wiki](https://en.wikipedia.org/wiki/Group_signature)[百度百科](https://baike.baidu.com/item/群签名/5192708?fr=aladdin))
+代理签名 ([Wiki](https://en.wikipedia.org/wiki/Proxy_re-encryption)[百度百科](https://baike.baidu.com/item/代理签名))
+
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=35618537&auto=1&height=66"></iframe>
