@@ -9,16 +9,23 @@ date: 2018-08-27
 	2）不可追踪性（Untraceability）：无法知道交易的发送者是谁。
 <!--more-->
 
-#数据安全和用户隐私保护的技术有：
-##1, One-time-use address（一次性地址）
-##2, Encrypted metadata（元数据加密）
-##3, State channels（状态通道）
-##4, Ring signature（环签名）
-##5, Zero-knowledge proof（零知识证明）		
-##6, Cash shuffle （coin shuffle混币）
-##7, Homomorphic encryption + Multiparty calculation（同态加密+多方计算）
+## 数据安全和用户隐私保护的技术有：
 
-#1 One-time-use address（一次性地址）
+### 1, One-time-use address（一次性地址）
+
+### 2, Encrypted metadata（元数据加密）
+
+### 3, State channels（状态通道）
+
+### 4, Ring signature（环签名）
+
+### 5, Zero-knowledge proof（零知识证明）		
+
+### 6, Cash shuffle （coin shuffle混币）
+
+### 7, Homomorphic encryption + Multiparty calculation（同态加密+多方计算）
+
+##1 One-time-use address（一次性地址）
 	每次交易时，接收者用自己的公钥产生一个临时的地址，发送者将金额发送到这个临时地址，然后接收者用自己的公钥找到这笔交易并接收。
 	[门罗币](https://getmonero.org/)使用了one-time-use address来实现交易的不可链接性。
 
