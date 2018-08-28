@@ -40,7 +40,7 @@ date: 2018-08-27
 
 ## 3 [State channels（状态通道）](https://www.jeffcoleman.ca/state-channels/)
 
-### 3.1 [Lightning Network](https://lightning.network/)
+### [Lightning Network](https://lightning.network/)
 
 - 状态通道技术可以让用户实现线下交易，与比特币不同，用户不需要在链上等待确认消息。
 
