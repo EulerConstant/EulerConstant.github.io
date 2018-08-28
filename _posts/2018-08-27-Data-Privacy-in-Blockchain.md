@@ -112,12 +112,12 @@ date: 2018-08-27
 
 - 数据安全  
 
-涉及到的技术有：链下计算（状态通道），同态加密，安全多方计算，元数据加密，零知识证明，盲签名([Wiki](https://en.wikipedia.org/wiki/Blind_signature)[百度百科](https://baike.baidu.com/item/盲签名/10323600?fr=aladdin))
+涉及到的技术有：链下计算（状态通道），同态加密，安全多方计算，元数据加密，零知识证明，盲签名([Wiki](https://en.wikipedia.org/wiki/Blind_signature),[百度百科](https://baike.baidu.com/item/盲签名/10323600?fr=aladdin))
 
 
 - 用户隐私  
 
-涉及到：环签名，one-time-use address,CoinJoin混币，群签名，([Wiki](https://en.wikipedia.org/wiki/Group_signature)[百度百科](https://baike.baidu.com/item/群签名/5192708?fr=aladdin))
-代理签名 ([Wiki](https://en.wikipedia.org/wiki/Proxy_re-encryption)[百度百科](https://baike.baidu.com/item/代理签名))
+涉及到：环签名，one-time-use address,CoinJoin混币，群签名，([Wiki](https://en.wikipedia.org/wiki/Group_signature), [百度百科](https://baike.baidu.com/item/群签名/5192708?fr=aladdin)),
+代理签名 ([Wiki](https://en.wikipedia.org/wiki/Proxy_re-encryption),[百度百科](https://baike.baidu.com/item/代理签名))
 
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=35618537&auto=1&height=66"></iframe>
