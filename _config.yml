@@ -12,8 +12,7 @@
 url: https://eulerconstant.github.io
 baseurl: /
 title: Lei`s blog
-description: >
-    Lei`s blog | 个人博客
+description: Lei`s blog | 个人博客
 
 
 ## => Language and Timezone
@@ -25,17 +24,17 @@ timezone: Asia/Shanghai
 ## => Author and Social
 ##############################
 author:
-  name: Lei`s blog
-  email: lei.rong@outlook.com
+name: Lei`s blog
+email: lei.rong@outlook.com
 #  twitter: kitian616
-  github:  EulerConstant
+github:  EulerConstant
 #  googleplus: 101827554735084402671
 #  weibo: 234695683
 #  douban: kitian616
-  biwen: 一天吃一个鸡蛋
+#biwen: 一天吃一个鸡蛋
 #  steemit: @lei.darthvader      
-  quora: wingleoi
-  stack: blockedman
+#quora: wingleoi
+#stack: blockedman
 
 ## => GitHub Repository (if the site is hosted by GitHub)
 ##############################
@@ -46,10 +45,10 @@ repository_tree: master
 ## => Paths
 ##############################
 paths:
-  root: /
-  home: /blog
-  archive: /blog/archive.html
-  rss:  /feed.xml
+root: /
+home: /blog
+archive: /blog/archive.html
+rss: /feed.xml
 
 
 ## => Post
@@ -72,26 +71,26 @@ paginate_path: /blog/page:num
 ##############################
 comments:
   provider: disqus
-  disqus:
-    shortname: EulerConstant-github-io
+disqus:
+  shortname: EulerConstant-github-io
 
 
 ## => Pageview
 ##############################
 pageview:
   provider: leancloud
-  leancloud:
-    app_id: uAG3OhdcH8H4fxSqXLyBljA7-gzGzoHsz
-    app_key: Mzf5m9skSwYVWVXhGiYMNyXs
-    app_class: ThomasBlog
+leancloud:
+  app_id: uAG3OhdcH8H4fxSqXLyBljA7-gzGzoHsz
+  app_key: Mzf5m9skSwYVWVXhGiYMNyXs
+  app_class: ThomasBlog
 
 
 ## => Analytics
 ##############################
 analytics:
   provider: google
-  google:
-    tracking_id: UA-71907556-1
+google:
+  tracking_id: UA-71907556-1
 
 
 ## => Build
@@ -143,4 +142,4 @@ plugins:
 ## => Server
 ##############################
 server_url: "0.0.0.0"
-port: 4001
+port: 4000
