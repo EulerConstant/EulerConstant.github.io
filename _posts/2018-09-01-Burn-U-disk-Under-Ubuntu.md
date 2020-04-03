@@ -14,7 +14,7 @@ tags: Burn U-disk Ubuntu ISO
 
 - 首先，查看U盘挂载路径： 
 
-{% highlight  %}
+{% highlight  ruby linenos%}
 sudo fdisk -l
 {% endhighlight %}
 
@@ -22,7 +22,7 @@ sudo fdisk -l
 
 - 然后，执行命名，比如我要将Downloads目录下的Windows.iso文件刻录到U盘里，输入以下命令：
 
-{% highlight %}
+{% highlight ruby linenos%}
  sudo dd if=/home/XXX/Downloads/Windows.iso of=/dev/sda
 {% endhighlight %}
 
